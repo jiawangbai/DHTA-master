@@ -7,7 +7,7 @@ Download and save this model at "models/imagenet_vgg11_32"
 
 run the below command to reproduce our result.
 ```shell
-python3 attack_imagenet.py --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
+python attack_imagenet.py --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
 ```
 
 The detail README is coming soon...
