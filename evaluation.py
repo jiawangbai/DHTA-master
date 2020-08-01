@@ -3,7 +3,6 @@ import scipy.io as scio
 from sklearn.metrics import precision_recall_curve
 from scipy.spatial.distance import cdist
 import matplotlib.pyplot as plt
-from utils import *
 
 
 def hamming_precision(params):
