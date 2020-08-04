@@ -1,5 +1,5 @@
 # Targeted Attack for Deep Hashing based Retrieval
-This repository provides implementatin our ECCV 2020 work: Targeted Attack for Deep Hashing based Retrieval.
+This repository provides implementatin our ECCV 2020 work: [Targeted Attack for Deep Hashing based Retrieval](https://arxiv.org/pdf/2004.07955.pdf).
 
 ## Abstract
 
