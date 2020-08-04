@@ -14,8 +14,8 @@ The deep hashing based retrieval method is widely adopted in large-scale image a
 &nbsp;
 
 ## Install
-1. Install PyTorch > 1.4
-2. Clone this repo and uncompress the pre-trained model inside:
+1. Install PyTorch >= 1.4
+2. Clone this repo:
 ```shell
 git clone https://github.com/jiawangbai/DHTA-master.git
 ```
@@ -59,7 +59,7 @@ Visualization examples of generated adversarial examples on ImageNet.
 
 ## Citation
 
-If our work is helpful to you, please cite as follows. 
+If our work is useful for your research, please cite as follows. 
 ```
 @article{bai2020targeted,
   title={Targeted Attack for Deep Hashing based Retrieval},
@@ -68,4 +68,3 @@ If our work is helpful to you, please cite as follows.
   year={2020}
 }
 ```
-
