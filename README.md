@@ -36,7 +36,7 @@ python attack_imagenet.py --n-anchor 1 --root [imagent-data-root] --reproduce --
 ```--n-anchor=9``` denotes P2P attack method.
 
 
-## Visual Results
+## Some Results
  
 An example of image retrieval with benign query and its adversarial query on ImageNet. Retrieved objects with top-10 similarity are shown in the box. The tick and cross indicate whether the retrieved object is consistent with the desired label (the original label for benign query and the target label for adversarial query).
 &nbsp;
