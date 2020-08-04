@@ -34,15 +34,16 @@ python attack_imagenet.py --n-anchor 1 --root [imagent-data-root] --reproduce --
 
 
 ## Visual Results
-  
-  
-<div align=center>
-<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/method.png" width="800" height="400" alt="Pipeline of DHTA"/><br/>
-</div>
-  
+ 
   
 <div align=center>
-<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/method.png" width="800" height="400" alt="Pipeline of DHTA"/><br/>
+<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/vis_image.pdf" width="800" height="300" alt="Pipeline of DHTA"/><br/>
 </div>
+
+  
+<div align=center>
+<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/perce_imagenet.pdf " width="800" height="300" alt="Pipeline of DHTA"/><br/>
+</div>
+  
 
 
