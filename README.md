@@ -28,12 +28,12 @@ Run the below command with ```--reproduce``` to reproduce our results of attacki
 ```shell
 python attack_imagenet.py --n-anchor 9 --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
 ```
-```--n-anchor=9``` denotes our DHTA method.
+```n-anchor=9``` denotes our DHTA method.
 
 ```shell
 python attack_imagenet.py --n-anchor 1 --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
 ```
-```--n-anchor=9``` denotes P2P attack method.
+```n-anchor=1``` denotes P2P attack method.
 
 
 ## Some Results
