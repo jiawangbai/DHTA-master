@@ -19,11 +19,11 @@ The deep hashing based retrieval method is widely adopted in large-scale image a
 ```shell
 git clone https://github.com/jiawangbai/DHTA-master.git
 ```
-3. Download the pretrained hashing model: [VGG11_32_for_IamgeNet](https://drive.google.com/file/d/1V6Nvr0DMhquqWwsl1CQtv0Kug7aXXTzx/view?usp=sharing)
-4. Save this model in "models/imagenet_vgg11_32"
+3. Download the pretrained hashing model: [VGG11_32_for_ImageNet](https://drive.google.com/file/d/1V6Nvr0DMhquqWwsl1CQtv0Kug7aXXTzx/view?usp=sharing)
+4. Save this model in "./DHTA-master/models/imagenet_vgg11_32"
 
 ## Attack
-Run the below command with ```--reproduce``` to reproduce our result of attacking vgg11 with 32-bits code length on ImageNet.
+Run the below command with ```--reproduce``` to reproduce our results of attacking vgg11 with 32-bits code length on ImageNet.
 
 ```shell
 python attack_imagenet.py --n-anchor 9 --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
