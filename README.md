@@ -9,7 +9,7 @@ The deep hashing based retrieval method is widely adopted in large-scale image a
 1. Install PyTorch > 1.4
 2. Clone this repo and uncompress the pre-trained model inside:
 ```shell
-git clone 
+git clone https://github.com/jiawangbai/DHTA-master.git
 ```
 3. Download the pretrained hashing model: [VGG11_32_for_IamgeNet](https://drive.google.com/file/d/1V6Nvr0DMhquqWwsl1CQtv0Kug7aXXTzx/view?usp=sharing)
 4. Save this model in "models/imagenet_vgg11_32"
@@ -20,10 +20,14 @@ Run the below command to reproduce our result.
 ```shell
 python attack_imagenet.py --n-anchor 9 --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
 ```
+```--n-anchor=9``` denotes our DHTA method.
 
 ```shell
 python attack_imagenet.py --n-anchor 1 --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
 ```
+```--n-anchor=9``` denotes P2P attack method.
+
+
 
 ## Some Results
 
