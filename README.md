@@ -42,7 +42,7 @@ An example of image retrieval with benign query and its adversarial query on Ima
 &nbsp;
 &nbsp;
 <div align=center>
-<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/attack_examples.png" width="700" height="200"/><br/>
+<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/attack_examples.png" width="750" height="210"/><br/>
 </div>
 &nbsp;
 &nbsp;
@@ -51,10 +51,21 @@ Visualization examples of generated adversarial examples on ImageNet.
 &nbsp;
 &nbsp;
 <div align=center>
-<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/visual_examples.png" width="700" height="250"/><br/>
+<img src="https://github.com/jiawangbai/DHTA-master/blob/master/misc/visual_examples.png" width="700" height="220"/><br/>
 </div>
 &nbsp;
 &nbsp;
-  
 
+
+## Citation
+
+If our work is helpful to you, please cite as follows. 
+```
+@article{bai2020targeted,
+  title={Targeted Attack for Deep Hashing based Retrieval},
+  author={Bai, Jiawang and Chen, Bin and Li, Yiming and Wu, Dongxian and Guo, Weiwei and Xia, Shu-tao and Yang, En-hui},
+  journal={ECCV},
+  year={2020}
+}
+```
 
