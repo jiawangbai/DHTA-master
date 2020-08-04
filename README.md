@@ -15,7 +15,7 @@ git clone https://github.com/jiawangbai/DHTA-master.git
 4. Save this model in "models/imagenet_vgg11_32"
 
 ## Attack
-Run the below command to reproduce our result.
+Run the below command with ```--reproduce``` to reproduce our result of attacking vgg11 with 32-bits code length on ImageNet.
 
 ```shell
 python attack_imagenet.py --n-anchor 9 --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
@@ -28,8 +28,7 @@ python attack_imagenet.py --n-anchor 1 --root [imagent-data-root] --reproduce --
 ```--n-anchor=9``` denotes P2P attack method.
 
 
-
-## Some Results
+## Visual Results
 
 The detail README is coming soon...
 
