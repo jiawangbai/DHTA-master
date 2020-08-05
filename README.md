@@ -1,5 +1,5 @@
 # Targeted Attack for Deep Hashing based Retrieval
-This repository provides implementatin our ECCV 2020 work: [Targeted Attack for Deep Hashing based Retrieval](https://arxiv.org/pdf/2004.07955.pdf).
+This repository provides the implementatin of our ECCV 2020 work: [Targeted Attack for Deep Hashing based Retrieval](https://arxiv.org/pdf/2004.07955.pdf).
 
 ## Abstract
 
@@ -23,7 +23,7 @@ git clone https://github.com/jiawangbai/DHTA-master.git
 4. Save this model in "./DHTA-master/models/imagenet_vgg11_32"
 
 ## Attack
-Run the below command with ```--reproduce``` to reproduce our results of attacking vgg11 with 32-bits code length on ImageNet.
+Run the following command with ```--reproduce``` to reproduce our results of attacking vgg11 with 32-bits code length on ImageNet.
 
 ```shell
 python attack_imagenet.py --n-anchor 9 --root [imagent-data-root] --reproduce --gpu-id [gpu-id]
@@ -59,7 +59,7 @@ Visualization examples of generated adversarial examples on ImageNet.
 
 ## Citation
 
-If our work is useful for your research, please cite as follows. 
+If our work is useful for your research, please cite it as follows. 
 ```
 @article{bai2020targeted,
   title={Targeted Attack for Deep Hashing based Retrieval},
