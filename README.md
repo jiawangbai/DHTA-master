@@ -61,10 +61,10 @@ Visualization examples of generated adversarial examples on ImageNet.
 
 If our work is useful for your research, please cite it as follows. 
 ```
-@article{bai2020targeted,
+@inproceedings{bai2020targeted,
   title={Targeted Attack for Deep Hashing based Retrieval},
   author={Bai, Jiawang and Chen, Bin and Li, Yiming and Wu, Dongxian and Guo, Weiwei and Xia, Shu-tao and Yang, En-hui},
-  journal={ECCV},
+  booktitle={ECCV},
   year={2020}
 }
 ```
